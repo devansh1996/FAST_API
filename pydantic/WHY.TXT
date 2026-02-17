@@ -1,0 +1,20 @@
+Pydantic :  
+
+way to ensure data validation in case of API 
+
+function we do it:
+    def move(a:str,b:int): BUT
+
+    even a int can be absorbed into STR hencr
+    not STRICT VALIDATION IN PYTHON
+
+ANOTHER WAY :  ## using if else but NOT SCALE
+    if (type(a)=='int')
+        print(a)
+    else:
+        raise TypeError
+
+PYDANTIC - TYPE VALIDATION AND DATA VALIDATION
+
+
+
